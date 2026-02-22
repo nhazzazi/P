@@ -17,7 +17,7 @@
 
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- Structured data -->
+  <!-- Structured data (no employer, no phone; email included) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -25,12 +25,14 @@
     "name": "Noha Hazzazi",
     "honorificPrefix": "Dr.",
     "jobTitle": "Senior Research Scientist",
-    "affiliation": {
-      "@type": "Organization",
-      "name": "Hampton University"
-    },
     "email": "nhazzazi@ieee.org",
-    "telephone": "+1-571-766-6642"
+    "url": "https://yourdomain.com",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=YOURID",
+      "https://orcid.org/0000-0000-0000-0000",
+      "https://www.linkedin.com/in/YOURHANDLE",
+      "https://github.com/YOURHANDLE"
+    ]
   }
   </script>
 </head>
@@ -68,9 +70,9 @@
         <div class="hero-copy">
           <h1>Research at the intersection of <span class="accent">AI</span>, <span class="accent">cybersecurity</span>, and <span class="accent">networked systems</span>.</h1>
           <p class="lead">
-            I am a <strong>Senior Research Scientist</strong> at <strong>Hampton University</strong> (2026–present),
-            with prior appointments as <strong>Assistant Professor of Computer Science</strong> at <strong>Howard University</strong> (2018–2025)
-            and <strong>Assistant Professor</strong> at <strong>King Abdulaziz University</strong> (2017–2018). :contentReference[oaicite:1]{index=1}
+            I am a <strong>Senior Research Scientist</strong> (2026–present), with prior appointments as
+            <strong>Assistant Professor of Computer Science</strong> at <strong>Howard University</strong> (2018–2025)
+            and <strong>Assistant Professor</strong> at <strong>King Abdulaziz University</strong> (2017–2018).
           </p>
 
           <div class="cta-row">
@@ -80,16 +82,16 @@
 
           <ul class="quick-facts" aria-label="Quick facts">
             <li><span class="k">Focus:</span> Trustworthy AI · Security models · Network & IoT security · Applied ML</li>
-            <li><span class="k">Recent work:</span> Deep learning for medical imaging; security models for autonomous/connected systems :contentReference[oaicite:2]{index=2}</li>
+            <li><span class="k">Recent work:</span> Deep learning for medical imaging; security models for autonomous/connected systems</li>
             <li><span class="k">Open to:</span> Collaborations · Invited talks · Reviewing</li>
           </ul>
 
           <div class="links">
             <!-- Replace with your real profile links -->
-            <a href="#" target="_blank" rel="noopener">Google Scholar</a>
-            <a href="#" target="_blank" rel="noopener">ORCID</a>
-            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="#" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=YOURID" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">ORCID</a>
+            <a href="https://www.linkedin.com/in/YOURHANDLE" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/YOURHANDLE" target="_blank" rel="noopener">GitHub</a>
           </div>
         </div>
 
@@ -97,12 +99,15 @@
           <img class="profile" src="assets/profile.jpg" alt="Portrait of Dr. Noha Hazzazi" />
           <div class="hero-card-body">
             <div class="meta">
-              <div class="meta-row"><span class="label">Current role</span><span class="value">Hampton University</span></div>
-              <div class="meta-row"><span class="label">Email</span><span class="value">nhazzazi@ieee.org</span></div>
-              <div class="meta-row"><span class="label">Phone</span><span class="value">+1 (571) 766-6642</span></div>
+              <div class="meta-row"><span class="label">Role</span><span class="value">Senior Research Scientist</span></div>
+              <div class="meta-row">
+                <span class="label">Email</span>
+                <span class="value"><a href="mailto:nhazzazi@ieee.org">nhazzazi@ieee.org</a></span>
+              </div>
+              <div class="meta-row"><span class="label">Focus</span><span class="value">AI · Cybersecurity · Networks</span></div>
             </div>
             <div class="note">
-              <strong>Consulting:</strong> Lead technology operations and IT strategy in an insurance/insurtech environment (2025–present). :contentReference[oaicite:3]{index=3}
+              <strong>Current:</strong> Research and technology leadership across AI-driven security and applied ML initiatives.
             </div>
           </div>
         </div>
@@ -117,24 +122,24 @@
           <div>
             <p>
               I am a research scientist and educator with experience spanning academia, applied research, and technology leadership.
-              My work includes AI and security research, sponsored projects, and curriculum development in computer science. :contentReference[oaicite:4]{index=4}
+              My work includes AI and security research, sponsored projects, and curriculum development in computer science.
             </p>
 
             <h3 class="subhead">Education</h3>
             <ul class="list">
-              <li><strong>Ph.D., Information Technology</strong> — George Mason University (2017) :contentReference[oaicite:5]{index=5}</li>
-              <li><strong>M.S., Telecommunications</strong> — George Mason University (2010) :contentReference[oaicite:6]{index=6}</li>
-              <li><strong>BComm, Information Technology Management</strong> — Ryerson University (2008) :contentReference[oaicite:7]{index=7}</li>
+              <li><strong>Ph.D., Information Technology</strong> — George Mason University (2017)</li>
+              <li><strong>M.S., Telecommunications</strong> — George Mason University (2010)</li>
+              <li><strong>BComm, Information Technology Management</strong> — Ryerson University (2008)</li>
             </ul>
           </div>
 
           <aside class="panel">
             <h3 class="panel-title">Professional memberships</h3>
             <ul class="bullets">
-              <li>IEEE (2012–present) :contentReference[oaicite:8]{index=8}</li>
-              <li>ACM (2021–present) :contentReference[oaicite:9]{index=9}</li>
-              <li>Upsilon Pi Epsilon (2020–present) :contentReference[oaicite:10]{index=10}</li>
-              <li>AAUW (2024–present) :contentReference[oaicite:11]{index=11}</li>
+              <li>IEEE (2012–present)</li>
+              <li>ACM (2021–present)</li>
+              <li>Upsilon Pi Epsilon (2020–present)</li>
+              <li>AAUW (2024–present)</li>
             </ul>
           </aside>
         </div>
@@ -146,9 +151,9 @@
       <div class="container">
         <h2>Academic Appointments</h2>
         <ul class="list">
-          <li><strong>Hampton University</strong> (Hampton, VA) — Senior Research Scientist (2026–present) :contentReference[oaicite:12]{index=12}</li>
-          <li><strong>Howard University</strong> (Washington, DC) — Assistant Professor of Computer Science (2018–2025) :contentReference[oaicite:13]{index=13}</li>
-          <li><strong>King Abdulaziz University</strong> (Jeddah, KSA) — Assistant Professor (2017–2018) :contentReference[oaicite:14]{index=14}</li>
+          <li><strong>Senior Research Scientist</strong> — (2026–present)</li>
+          <li><strong>Howard University</strong> (Washington, DC) — Assistant Professor of Computer Science (2018–2025)</li>
+          <li><strong>King Abdulaziz University</strong> (Jeddah, KSA) — Assistant Professor (2017–2018)</li>
         </ul>
       </div>
     </section>
@@ -158,23 +163,23 @@
       <div class="container">
         <h2>Research & Expertise</h2>
         <p class="section-intro">
-          My research spans trustworthy AI, security and risk assessment models, and applied machine learning in networked and healthcare-adjacent contexts. :contentReference[oaicite:15]{index=15}
+          My research spans trustworthy AI, security and risk assessment models, and applied machine learning in networked and healthcare-adjacent contexts.
         </p>
 
         <div class="cards">
           <article class="card">
             <h3>AI for Healthcare & Imaging</h3>
-            <p>Deep learning methods for disease detection and white blood cell classification; analytics on health-related signals and diagnosis workflows. :contentReference[oaicite:16]{index=16}</p>
+            <p>Deep learning methods for disease detection and white blood cell classification; analytics on health-related signals and diagnosis workflows.</p>
           </article>
 
           <article class="card">
             <h3>Cybersecurity & Risk Models</h3>
-            <p>Security models for autonomous/connected systems, hybrid risk assessment approaches, and secure system design considerations. :contentReference[oaicite:17]{index=17}</p>
+            <p>Security models for autonomous/connected systems, hybrid risk assessment approaches, and secure system design considerations.</p>
           </article>
 
           <article class="card">
             <h3>Networks, IoT, and Secure Communications</h3>
-            <p>Secure mesh networking and certifiable cryptographic solutions for constrained environments and mission contexts. :contentReference[oaicite:18]{index=18}</p>
+            <p>Secure networking and certifiable cryptographic solutions for constrained environments and mission contexts.</p>
           </article>
         </div>
       </div>
@@ -186,26 +191,25 @@
         <div class="section-head">
           <h2>Selected Publications</h2>
           <div class="section-actions">
-            <!-- Replace with real Scholar/ORCID links when you paste them -->
-            <a class="pill" href="#" target="_blank" rel="noopener">Google Scholar</a>
-            <a class="pill" href="#" target="_blank" rel="noopener">ORCID</a>
+            <a class="pill" href="https://scholar.google.com/citations?user=YOURID" target="_blank" rel="noopener">Google Scholar</a>
+            <a class="pill" href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">ORCID</a>
           </div>
         </div>
 
         <ol class="pubs">
           <li>
             <div class="pub-title">Optimizing disease detection: Deep learning methods for white blood cell classification</div>
-            <div class="pub-meta">Ali, K., Hazzazi, N., Saqib, S., Khan, W.A., & Raza, U.A. — <span class="muted">under review</span> (2025) :contentReference[oaicite:19]{index=19}</div>
+            <div class="pub-meta">Ali, K., Hazzazi, N., Saqib, S., Khan, W.A., & Raza, U.A. — under review (2025)</div>
           </li>
 
           <li>
             <div class="pub-title">Analyzing Impact of Digital Media and Social Networks on Autism Prevalence and Advancing AI-Powered Diagnosis</div>
-            <div class="pub-meta">Hazzazi, N., Saqib, H., Saqib, S., Ahmad, W. — IEEE HITE (2025) :contentReference[oaicite:20]{index=20}</div>
+            <div class="pub-meta">Hazzazi, N., Saqib, H., Saqib, S., Ahmad, W. — IEEE HITE (2025)</div>
           </li>
 
           <li>
             <div class="pub-title">Differentiable Forests: The Random Journey Continues</div>
-            <div class="pub-meta">Ngangmeni, J., Hazzazi, N., Rawat, D. — Springer Nature (2024) :contentReference[oaicite:21]{index=21}</div>
+            <div class="pub-meta">Ngangmeni, J., Hazzazi, N., Rawat, D. — Springer Nature (2024)</div>
             <div class="pub-links">
               <a href="https://link.springer.com/chapter/10.1007/978-3-031-62110-9_13#citeas" target="_blank" rel="noopener">Springer</a>
             </div>
@@ -213,7 +217,7 @@
 
           <li>
             <div class="pub-title">Autonomous Vehicle Security Model</div>
-            <div class="pub-meta">Hazzazi, N., Daimi, K., Issa, H. — Springer / ICWN (2021) :contentReference[oaicite:22]{index=22}</div>
+            <div class="pub-meta">Hazzazi, N., Daimi, K., Issa, H. — Springer / ICWN (2021)</div>
             <div class="pub-links">
               <a href="https://link.springer.com/chapter/10.1007/978-3-030-71017-0_37" target="_blank" rel="noopener">Springer</a>
             </div>
@@ -221,7 +225,7 @@
 
           <li>
             <div class="pub-title">Extending a Hybrid Security Risk Assessment Model with CWSS</div>
-            <div class="pub-meta">Banks, R., Jones, J., Hazzazi, N., Garcia, P., Zimmermann, R. — ITNG (2021) :contentReference[oaicite:23]{index=23}</div>
+            <div class="pub-meta">Banks, R., Jones, J., Hazzazi, N., Garcia, P., Zimmermann, R. — ITNG (2021)</div>
             <div class="pub-links">
               <a href="https://link.springer.com/10.1007/978-3-030-70416-2_18" target="_blank" rel="noopener">Springer</a>
             </div>
@@ -229,7 +233,7 @@
 
           <li>
             <div class="pub-title">Distributed Operating System Security and Protection: A Short Survey</div>
-            <div class="pub-meta">Abdelmoumin, G., Hazzazi, N. — Springer / ITNG (2020) :contentReference[oaicite:24]{index=24}</div>
+            <div class="pub-meta">Abdelmoumin, G., Hazzazi, N. — Springer / ITNG (2020)</div>
             <div class="pub-links">
               <a href="https://link.springer.com/chapter/10.1007/978-3-030-43020-7_20" target="_blank" rel="noopener">Springer</a>
             </div>
@@ -243,21 +247,21 @@
       <div class="container">
         <h2>Contracts, Fellowships, Grants & Sponsored Research</h2>
         <ul class="list">
-          <li><strong>HOWU-NR PIT-UN Student Research and Symposium</strong> — PI; $161,091 (Jan 2023–Apr 2024) :contentReference[oaicite:25]{index=25}</li>
-          <li><strong>PIT Student Network</strong> — PI; $179,999 (Jan 2022–May 2023) :contentReference[oaicite:26]{index=26}</li>
-          <li><strong>Howard University - BROWNBOWTIE</strong> — Co-PI; NSA; $430,000 (May 2022–Apr 2023) :contentReference[oaicite:27]{index=27}</li>
-          <li><strong>Reducing Stress While Navigating Virtual Learning</strong> — Co-PI; $50,000 (2022–2023) :contentReference[oaicite:28]{index=28}</li>
-          <li><strong>Mesh Network NSA Certifiable Cryptographic Solution</strong> — PI/Co-PI; $75,000 (Sep 2021–Aug 2022) :contentReference[oaicite:29]{index=29}</li>
-          <li><strong>PITUN Case Study Platform</strong> — PI; $175,000 (Nov 2019–May 2021) :contentReference[oaicite:30]{index=30}</li>
+          <li><strong>HOWU-NR PIT-UN Student Research and Symposium</strong> — PI; $161,091 (Jan 2023–Apr 2024)</li>
+          <li><strong>PIT Student Network</strong> — PI; $179,999 (Jan 2022–May 2023)</li>
+          <li><strong>Howard University - BROWNBOWTIE</strong> — Co-PI; NSA; $430,000 (May 2022–Apr 2023)</li>
+          <li><strong>Reducing Stress While Navigating Virtual Learning</strong> — Co-PI; $50,000 (2022–2023)</li>
+          <li><strong>Mesh Network NSA Certifiable Cryptographic Solution</strong> — PI/Co-PI; $75,000 (Sep 2021–Aug 2022)</li>
+          <li><strong>PITUN Case Study Platform</strong> — PI; $175,000 (Nov 2019–May 2021)</li>
         </ul>
 
         <div class="panel" style="margin-top:16px;">
           <h3 class="panel-title">Research activity</h3>
           <ul class="bullets">
-            <li>DOE Machine Learning Quantum Magnetism Renewal (2024–present, ongoing) :contentReference[oaicite:31]{index=31}</li>
-            <li>Mesh Network NSA Certifiable Cryptographic Solution (completed) :contentReference[oaicite:32]{index=32}</li>
-            <li>NSF TRAIT AI Institute (completed) :contentReference[oaicite:33]{index=33}</li>
-            <li>NSF SaTC Frontier (completed) :contentReference[oaicite:34]{index=34}</li>
+            <li>DOE Machine Learning Quantum Magnetism Renewal (2024–present, ongoing)</li>
+            <li>Mesh Network NSA Certifiable Cryptographic Solution (completed)</li>
+            <li>NSF TRAIT AI Institute (completed)</li>
+            <li>NSF SaTC Frontier (completed)</li>
           </ul>
         </div>
       </div>
@@ -271,20 +275,20 @@
           <div>
             <h3 class="subhead">Courses taught (selected)</h3>
             <ul class="list">
-              <li>Exploring Computer Science (CSCI 120) :contentReference[oaicite:35]{index=35}</li>
-              <li>Computer Science I–III (C++): CSCI 135, 354 :contentReference[oaicite:36]{index=36}</li>
-              <li>Computer Networks: CSCI 449 :contentReference[oaicite:37]{index=37}</li>
-              <li>Network and Web Programming: CSCI 452/553 :contentReference[oaicite:38]{index=38}</li>
-              <li>Computability & Complexity: CSCI 572 :contentReference[oaicite:39]{index=39}</li>
-              <li>Special Topics — Software Reliability: CSCI 688 (new course development) :contentReference[oaicite:40]{index=40}</li>
+              <li>Exploring Computer Science (CSCI 120)</li>
+              <li>Computer Science I–III (C++): CSCI 135, 354</li>
+              <li>Computer Networks: CSCI 449</li>
+              <li>Network and Web Programming: CSCI 452/553</li>
+              <li>Computability & Complexity: CSCI 572</li>
+              <li>Special Topics — Software Reliability: CSCI 688 (new course development)</li>
             </ul>
           </div>
 
           <aside class="panel">
             <h3 class="panel-title">Graduate supervision (selected)</h3>
             <ul class="bullets">
-              <li>Dissertation Chair/Member across topics including federated learning, IDS for IoT, privacy in mobile CPS, and ML security. :contentReference[oaicite:41]{index=41}</li>
-              <li>Research Methodology Workshop (2023) :contentReference[oaicite:42]{index=42}</li>
+              <li>Dissertation chair/member across topics including federated learning, IDS for IoT, privacy in mobile CPS, and ML security.</li>
+              <li>Research Methodology Workshop (2023)</li>
             </ul>
           </aside>
         </div>
@@ -299,27 +303,27 @@
           <div>
             <h3 class="subhead">Professional service</h3>
             <ul class="list">
-              <li>Reviewer: IADIS IS 2026 (Jan 2026) :contentReference[oaicite:43]{index=43}</li>
-              <li>Reviewer: Journal of Computing and Artificial Intelligence (Aug 2025) :contentReference[oaicite:44]{index=44}</li>
-              <li>Faculty Advisor: PIT-UN Tech for Change (2021–present) :contentReference[oaicite:45]{index=45}</li>
-              <li>Faculty Advisor: Upsilon Pi Epsilon (2020–present) :contentReference[oaicite:46]{index=46}</li>
-              <li>Session Chair: WorldComp (2019) :contentReference[oaicite:47]{index=47}</li>
+              <li>Reviewer: IADIS IS 2026 (Jan 2026)</li>
+              <li>Reviewer: Journal of Computing and Artificial Intelligence (Aug 2025)</li>
+              <li>Faculty Advisor: PIT-UN Tech for Change (2021–present)</li>
+              <li>Faculty Advisor: Upsilon Pi Epsilon (2020–present)</li>
+              <li>Session Chair: WorldComp (2019)</li>
             </ul>
           </div>
           <div>
             <h3 class="subhead">Industry & consulting</h3>
             <ul class="list">
-              <li>Ikhlas Insurance Group — Lead technology operations; migration to GoHighLevel portal; automation/AI solutions (2025–present) :contentReference[oaicite:48]{index=48}</li>
-              <li>Apex Management Consultants — Executive oversight; cross-functional leadership and proposals (2022–2025) :contentReference[oaicite:49]{index=49}</li>
-              <li>Laboratory Information Systems & Management Specialists — Blood Safety Program (US military adoption); AI-driven solutions (2017–2018) :contentReference[oaicite:50]{index=50}</li>
-              <li>Raytheon — IT Management Intern; Six Sigma Green Belt (2013) :contentReference[oaicite:51]{index=51}</li>
+              <li>Technology operations leadership and IT strategy in an insurance/insurtech environment (2025–present)</li>
+              <li>Executive oversight and cross-functional leadership (2022–2025)</li>
+              <li>Laboratory information systems / blood safety program adoption; AI-driven solutions (2017–2018)</li>
+              <li>IT Management Intern; Six Sigma Green Belt (2013)</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CONTACT -->
+    <!-- CONTACT (email only) -->
     <section id="contact" class="section alt">
       <div class="container">
         <h2>Contact</h2>
@@ -327,24 +331,21 @@
           <div>
             <p>If you’d like to collaborate, invite a talk, or discuss reviewing opportunities:</p>
             <p class="contact-line">
-              <span class="muted">Email:</span> <a id="emailLink" href="#" rel="nofollow">click to reveal</a>
-            </p>
-            <p class="contact-line" style="margin-top:12px;">
-              <span class="muted">Phone:</span> <a href="tel:+15717666642">+1 (571) 766-6642</a>
+              <span class="muted">Email:</span>
+              <a href="mailto:nhazzazi@ieee.org">nhazzazi@ieee.org</a>
             </p>
             <p class="muted small">
-              Privacy note: publishing email/phone can increase spam. If you prefer, I can switch this to a simple contact form
-              using a static-friendly service (no server required).
+              Note: publishing an email address may increase spam. If you want, I can switch this to a “contact via LinkedIn” only format.
             </p>
           </div>
 
           <aside class="panel">
             <h3 class="panel-title">Profiles (add your real links)</h3>
             <ul class="bullets">
-              <li><a href="#" target="_blank" rel="noopener">Google Scholar</a></li>
-              <li><a href="#" target="_blank" rel="noopener">ORCID</a></li>
-              <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
-              <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+              <li><a href="https://scholar.google.com/citations?user=YOURID" target="_blank" rel="noopener">Google Scholar</a></li>
+              <li><a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">ORCID</a></li>
+              <li><a href="https://www.linkedin.com/in/YOURHANDLE" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://github.com/YOURHANDLE" target="_blank" rel="noopener">GitHub</a></li>
             </ul>
           </aside>
         </div>
